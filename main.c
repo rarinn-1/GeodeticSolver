@@ -121,14 +121,14 @@ void print_text(void) {
 	mvwprintw(text, 1, 46, "Vincenty's");
 	mvwprintw(text, 1, 63, "Newton's method");
 
-	mvwprintw(text, 3, 28, "-- distance between two locations ---------------");
-	mvwprintw(text, 5, 28, "-- azimuth at first location --------------------");
-	mvwprintw(text, 7, 28, "-- azimuth at second location -------------------");
+	mvwprintw(text, 3, 28, "── distance between two locations ───────────────");
+	mvwprintw(text, 5, 28, "── azimuth at first location ────────────────────");
+	mvwprintw(text, 7, 28, "── azimuth at second location ───────────────────");
 
-	mvwprintw(text, 10, 28, "-- distance between first location and waypoint -");
-	mvwprintw(text, 12, 28, "-- azimuth at waypoint --------------------------");
-	mvwprintw(text, 14, 28, "-- latitude of waypoint -------------------------");
-	mvwprintw(text, 16, 28, "-- longitude of waypoint ------------------------");
+	mvwprintw(text, 10, 28, "── distance between first location and waypoint ─");
+	mvwprintw(text, 12, 28, "── azimuth at waypoint ──────────────────────────");
+	mvwprintw(text, 14, 28, "── latitude of waypoint ─────────────────────────");
+	mvwprintw(text, 16, 28, "── longitude of waypoint ────────────────────────");
 
 
 }
